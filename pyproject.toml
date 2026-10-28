@@ -1,0 +1,25 @@
+[project]
+name = "ghost35"
+version = "0.1.0"
+description = "Ghost in the Machine — local Ollama whispers for your terminal"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Wyndham Heaven (elghaly)" }]
+dependencies = []
+
+[project.scripts]
+ghost35 = "ghost35.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0,<9"]
+
+[tool.setuptools.packages.find]
+include = ["ghost35*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

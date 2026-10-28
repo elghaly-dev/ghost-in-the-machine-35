@@ -1,0 +1,1 @@
+# Runtime: stdlib only (urllib). Install Ollama separately for open-weight inference.
