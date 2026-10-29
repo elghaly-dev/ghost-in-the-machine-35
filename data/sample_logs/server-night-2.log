@@ -1,0 +1,8 @@
+2026-10-28 00:05:11 INFO host-beta.example worker started, queue empty
+2026-10-28 00:47:33 WARN host-beta.example disk use above 80 percent on volume main
+2026-10-28 01:15:02 ERROR host-beta.example connection to 203.0.113.7 refused
+2026-10-28 01:15:03 ERROR host-beta.example connection to 203.0.113.7 refused
+2026-10-28 01:16:40 WARN host-beta.example retry 1 for job nightly-check
+2026-10-28 02:30:00 INFO host-beta.example job nightly-check finished with 2 failures
+2026-10-28 03:00:00 INFO host-alpha.example heartbeat ok
+2026-10-28 04:10:10 DEBUG host-alpha.example cache size 512 entries

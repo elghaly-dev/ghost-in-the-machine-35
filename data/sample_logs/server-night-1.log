@@ -1,0 +1,7 @@
+2026-10-27 01:12:03 INFO host-alpha.example worker started, queue empty
+2026-10-27 01:14:47 INFO host-alpha.example request from 192.0.2.10 answered in 120ms
+2026-10-27 02:03:11 WARN host-alpha.example retry 1 for job nightly-check
+2026-10-27 02:03:12 WARN host-alpha.example retry 2 for job nightly-check
+2026-10-27 03:41:55 ERROR host-alpha.example job nightly-check failed: timeout after 30s
+2026-10-27 04:00:02 INFO host-alpha.example nightly-check finished with 1 failure
+2026-10-27 05:22:18 INFO host-beta.example heartbeat ok
