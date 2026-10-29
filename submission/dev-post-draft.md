@@ -45,7 +45,7 @@ Stack: Python 3.10+, Ollama HTTP API (`/api/chat`), stdlib HTTP client. Optional
 - **CLI** — `whisper`, `session`, `remember`, `demo`, and `doctor` subcommands.
 - **Tests** — pytest covers demo flow and offline fallback wording.
 
-The open model is not decoration: every “live” whisper and remembrance draft goes through Ollama when it is reachable. If Ollama is down, the tool says so and uses small rule-based templates instead of pretending.
+The open model is not decoration: every whisper and remembrance draft written at run time goes through Ollama when it is reachable. If Ollama is down, the tool says so and uses small rule-based templates instead of pretending.
 
 ## Why Does Open Innovation Matter?
 

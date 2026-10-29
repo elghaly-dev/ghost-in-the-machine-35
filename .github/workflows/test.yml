@@ -1,0 +1,25 @@
+name: test
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install -r requirements-dev.txt
+      # No Ollama on the runner: the tests cover the fallback path, which is
+      # the point — the tool must say so and keep working when the model is down.
+      - run: python -m pytest -q
