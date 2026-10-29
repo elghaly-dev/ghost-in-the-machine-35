@@ -1,0 +1,6 @@
+2026-10-29 00:02:01 INFO host-gamma.example worker started, queue empty
+2026-10-29 01:00:00 INFO host-gamma.example heartbeat ok
+2026-10-29 02:00:00 INFO host-gamma.example heartbeat ok
+2026-10-29 03:12:44 WARN host-gamma.example retry 1 for job nightly-check
+2026-10-29 04:00:00 INFO host-gamma.example nightly-check finished with 0 failures
+2026-10-29 05:30:00 INFO host-gamma.example worker stopped, queue empty
